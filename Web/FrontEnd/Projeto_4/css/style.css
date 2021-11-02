@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{clear: both;}
+
+/** HEADER **/
+
+header{
+    padding: 20px 2%;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo img{
+    float: left;
+    width: 236px;
+}
+
+header nav.menu-desktop{
+    float: right;
+}
+
+header nav.menu-mobile{
+    display: none;
+    float: right;
+    background-image: url('../img/menu-mobile.png');
+    width: 28px;
+    height: 28px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+header nav.menu-mobile ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+header nav.menu-mobile ul li{
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+header nav.menu-desktop ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header nav.menu-desktop ul li a{
+    text-decoration: none;
+    color: #b4b4b4;
+}
+
+
+/** SECTION MOSAICO **/
+
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+    background-image: url('../img/WhatsApp\ Image\ 2021-02-12\ at\ 18.28.02.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/** SECTION SERVIÇOS **/
+
+section.servicos > .container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+
+section.servicos > .container .box-servico{
+    text-align: center;
+    color: white;
+    background-image: url('../img/icone_dente.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center calc(100% - 5px);
+}
+
+section.servicos > .container .box-servico h2{
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+section.servicos > .container .box-servico p{
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+section.servicos > .container .box-servico:nth-last-of-type(1){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+section.servicos > .container .box-servico:nth-last-of-type(2){
+    width: 40%;
+    padding: 45px 2%;
+    background-color: #688293;
+    background-image: none;
+}
+
+section.servicos > .container .box-servico:nth-last-of-type(3){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+
+/** SECTION PERFIL **/
+
+section.perfil-container{
+    padding: 40px 0 ;
+}
+
+section.perfil-container .container{
+    max-width: 800px;
+}
+
+section.perfil-container .container .perfil-wraper{
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container .container .perfil-wraper2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+section.perfil-container .container .perfil-wraper .perfil-wraper2 .img-perfil{
+    width: 40%;
+    height: 100%;
+    background-image: url('../img/WhatsApp\ Image\ 2021-02-12\ at\ 18.28.02.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.perfil-container .container .perfil-wraper .perfil-wraper2 .texto-perfil{
+    width: 60%;
+    padding: 0 30px;
+}
+
+section.perfil-container .container .perfil-wraper .perfil-wraper2 .texto-perfil h2{
+    color: #698293;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.perfil-container .container .perfil-wraper .perfil-wraper2 .texto-perfil p{
+    color: #4b4b4b;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+
+/** SECTION VÍDEOS **/
+
+section.videos{
+    padding: 50px 0;
+}
+
+section.videos .box-video{
+    float: left;
+    width: 33.3%;
+    padding-top: calc(33.3% * 0.6);
+    position: relative;
+    border: 5px solid white;
+}
+
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/** SECTION TRATAMENTOS **/
+
+section.tratamentos{
+    padding: 70px 0;
+}
+
+section.tratamentos > h2{
+    text-align: center;
+    color: #698293;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.tratamentos .container{
+    padding: 80px 0;
+}
+
+section.tratamentos .tratamento-container{
+    float: left;
+    width: 33.3%;
+}
+
+section.tratamentos .tratamento-container .tratamento-single{
+    padding: 20px;
+}
+
+section.tratamentos .tratamento-container .tratamento-single h2{
+    font-size: 18px;
+    color: #737373;
+}
+
+section.tratamentos .tratamento-container .tratamento-single p{
+    font-size: 13px;
+    color: #b4b4b4;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+section.depoimentos h2{
+    text-align: center;
+    color: #698293;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.depoimentos > .container{
+    padding: 40px 0;
+    max-width: 400px;
+}
+
+section.depoimentos .depoimento-single{
+    text-align: justify;
+    width: 100%;
+    padding: 0 2%;
+}
+
+section.depoimentos .container .depoimento-single > q{
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.depoimento-single .nome-depoimento{
+    padding: 19px 0;
+    text-align: center;
+}
+
+.nome-depoimento img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.nome-depoimento span{
+    font-size: 13px;
+    color: #4b4b4b;
+    display: inline-block;
+    line-height: 32px;
+    vertical-align: top;
+}
+
+.instagram-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #98a5ae;
+}
+
+.instagram-chamada p{
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 23px;
+}
+
+.mosaico-social{
+    float: left;
+    width: 100%;
+}
+
+.img-mosaico-social{
+    float: left;
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    background-color: lightblue;
+    border: 6px solid white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.facebook-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #576975;
+}
+
+.facebook-chamada p{
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 23px;
+}
+
+section.contato{
+    padding: 60px 0;
+}
+
+section.contato > h2{
+    text-align: center;
+    color: #698293;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.contato form{
+    width: 100%;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+.form-wraper{
+    float: left;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.form-wraper span{
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.form-wraper input[type=text]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper input[type=email]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper input[type=tel]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea{
+    width: 100%;
+    padding: 8px;
+    height: 121px;
+    margin-top: 8px;
+    resize: none; /*Não permite redimensionamento manual do textarea*/
+    border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit]{
+    width: 100px;
+    height: 35px;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+    /* Para Centralizar...
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    ... ou... */
+    display: inline-block;
+}
+
+
+/** RESPONSIVIDADE **/
+
+@media screen and (max-width: 1024px){
+    .img-mosaico-social{
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+    }
+
+    .mosaico-social > div:nth-of-type(1n+7){
+        display: none;
+    }
+}
+
+footer{
+    padding: 40px 2%;
+    background-color: #688293;
+}
+
+footer .container{
+    max-width: 1100px;
+}
+
+footer .footer-block{
+    float: left;
+    width: 33.3%;
+}
+
+.footer-block h2{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer-block p{
+    color: white;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+
+    header nav.menu-desktop{
+        display: none;
+    }
+
+    header nav.menu-mobile{
+        display: block;
+    }
+    
+    section.servicos > .container{
+        flex-direction: column;
+    }
+
+    section.servicos > .container .box-servico:nth-last-of-type(1){
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2%;
+    }
+    
+    section.servicos > .container .box-servico:nth-last-of-type(2){
+        width: 94%;
+        max-width: 380px;
+        padding: 40px 2%;
+    }
+    
+    section.servicos > .container .box-servico:nth-last-of-type(3){
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2%;
+    }
+
+    section.perfil-container .container .perfil-wraper{
+        padding-top: 0;
+    }
+
+    section.perfil-container .container .perfil-wraper2{
+        display: inline-block;
+        text-align: center;
+        height: auto;
+        position: static;
+    }
+
+    section.perfil-container .container .perfil-wraper .perfil-wraper2 .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+    
+    section.perfil-container .container .perfil-wraper .perfil-wraper2 .texto-perfil{
+        display: inline-block;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    section.videos{
+        text-align: center;
+    }
+
+    section.videos .box-video{
+        float: none;
+        display: inline-block;
+        width: 70%;
+        padding-top: calc(70% * 0.6);
+    }
+
+    .img-mosaico-social{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
+    }
+
+    .mosaico-social > div:nth-of-type(1n+4){
+        display: none;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer-block{
+        float: none;
+        width: 100%;
+        margin: 30px 0;
+    }
+    
+}
+
+@media screen and (max-width: 580px) {
+    section.perfil-container .container .perfil-wraper .perfil-wraper2 .img-perfil{
+        width: 80%;
+        padding-top: 110%;
+    }
+
+    section.videos .box-video{
+        width: 100%;
+        padding-top: calc(100% * 0.6);
+    }
+
+    .w50{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .logo img{
+        width: 200px;
+    }
+}

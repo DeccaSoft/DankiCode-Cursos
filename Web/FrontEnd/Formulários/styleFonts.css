@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    font-size: "Open Sans";
+}
+
+form > *{
+    font-family: "Open Sans";
+}
+
+/* Para fontes locais (Em uma Pasta/Diretório) */
+@font-face {
+    font-family: "Minha Fonte";
+    src: url('fonts/OpenSans-Light.ttf');
+}
+
+h2{
+    font-family: "Minha Fonte";
+    font-weight: 700;
+}
+
+.box p{
+    font-family: "Minha Fonte";
+}
+
+.text{
+    font-family: Tahoma !important;
+}
+
+.minhatag{
+    display: block;
+}
+
+minhatag.tag_especial[tag=one]{
+    background-color: green;
+    width: 300px;
+    height: 400px;
+}
+
+andre > h2{
+    background-color: red;
+}

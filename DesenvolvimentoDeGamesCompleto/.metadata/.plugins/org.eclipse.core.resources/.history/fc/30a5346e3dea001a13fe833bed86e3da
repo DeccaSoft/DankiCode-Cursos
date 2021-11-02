@@ -1,0 +1,36 @@
+import java.awt.Canvas;
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+
+public class Game extends Canvas implements Runnable {
+	
+	public static JFrame frame;
+	private final int WIDTH = 160;
+	private final int HEIGHT = 120;
+	private final int SCALE = 3;
+	
+	public Game() {
+		this.setPreferredSize(new Dimension(WIDTH*SCALE, HEIGHT*SCALE)); //Seta as dimensões do Frame
+		frame = new JFrame("Game #1"); //Criai um novo Frame com título "Game #1"
+		frame.add(this); //Adiciona o Frame
+		frame.setResizable(false); //Usuário não pode redimensionar a janela
+		frame.pack(); //Após adiconado o Cavas, ele calcula as dimensões a serem setadas
+		//ou seja, redimensiona a janela de acordp com os componentes adicinados
+		frame.setLocationRelativeTo(null); //Janela deve ficar no centro
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Ao fechar o Frame também fechar a Aplicação
+		frame.setVisible(true); //Ao iniciar o frame já fica visivel
+		
+	}
+	
+	public static void main(String[] args) {
+		Game game = new Game();
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

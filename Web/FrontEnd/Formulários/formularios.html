@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Meu Formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite seu Nome" /></div>
+            <div><input type="text" name="email" placeholder="Digite seu E-Mail" /></div>
+            <div>
+                <select name="Lista" id="">
+                    <option disabled selected value="">Qual a sua Idade?</option>
+                    <option value="13">13-</option>
+                    <option value="14">14+</option>
+                    <option value="18">18+</option>
+                    <option value="21">21+</option>
+                    <option value="60">60+</option>
+                </select>
+            </div>
+            <h2>Qual a sua Cidade?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="cidade" value="Fortaleza" /><span>Fortaleza</span><br>
+                    <input type="radio" name="cidade" value="Sobral" /><span>Sobral</span><br>
+                    <input type="radio" name="cidade" value="Juazeiro" /><span>Juazeiro</span>
+                </div>
+            </div>
+            <h2>Prato(s) Preferido(s)?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="cidade[]" value="Lasanha" /><span>Lasanha</span><br>
+                    <input type="checkbox" name="cidade[]" value="Pizza" /><span>Pizza</span><br>
+                    <input type="checkbox" name="cidade[]" value="Sanduiche" /><span>Sanduiche</span><br>
+                    <input type="checkbox" name="cidade[]" value="Pastel" /><span>Pastel</span>
+                </div>
+            </div>
+            <div>
+                <textarea name="observacao" id="" cols="30" rows="10" placeholder="Digite aqui suas observações..."></textarea>
+            </div>
+            <div><input type="submit" name="acao" value="Enviar"></div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597961128989_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Aula000_IntroAlgoritimos/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Graficos/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Graficos/res" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LogicaGames/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LogicaProgramacao/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=OrientacaoObjetos/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ProgramaLeitura/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597961129163_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597964303766_3" label="Modulo1_Logica" name="Modulo1_Logica">
+<item elementID="=LogicaProgramacao" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Aula000_IntroAlgoritimos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598027853667_5" label="Modulo2_ProgramaDeLeitura" name="Modulo2_ProgramaDeLeitura">
+<item elementID="=ProgramaLeitura" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598030903553_11" label="Modulo3_OrientacaoObjetos" name="Modulo3_OrientacaoObjetos">
+<item elementID="=OrientacaoObjetos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598050579522_14" label="Modulo4_LogicaGames" name="Modulo4_LogicaGames">
+<item elementID="=LogicaGames" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598734446077_10" label="Modulo5_GraficosJava" name="Modulo5_GraficosJava">
+<item elementID="=Graficos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597961170025_2" label="Window Working Set" name="Aggregate for window 1597961170025"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598027960637_10" label="Multiple Working Sets" name="Aggregate:Modulo1_Logica:Modulo2_ProgramaDeLeitura:">
+<workingSet IMemento.internal.id="Modulo1_Logica"/>
+<workingSet IMemento.internal.id="Modulo2_ProgramaDeLeitura"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598030915857_13" label="Multiple Working Sets" name="Aggregate:Modulo1_Logica:Modulo2_ProgramaDeLeitura:Modulo3_OrientacaoObjetos:">
+<workingSet IMemento.internal.id="Modulo1_Logica"/>
+<workingSet IMemento.internal.id="Modulo2_ProgramaDeLeitura"/>
+<workingSet IMemento.internal.id="Modulo3_OrientacaoObjetos"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598050583589_15" label="Multiple Working Sets" name="Aggregate:Modulo1_Logica:Modulo2_ProgramaDeLeitura:Modulo3_OrientacaoObjetos:Modulo4_LogicaGames:">
+<workingSet IMemento.internal.id="Modulo1_Logica"/>
+<workingSet IMemento.internal.id="Modulo2_ProgramaDeLeitura"/>
+<workingSet IMemento.internal.id="Modulo3_OrientacaoObjetos"/>
+<workingSet IMemento.internal.id="Modulo4_LogicaGames"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598734606631_13" label="Multiple Working Sets" name="Aggregate:Modulo1_Logica:Modulo2_ProgramaDeLeitura:Modulo3_OrientacaoObjetos:Modulo4_LogicaGames:Modulo5_GraficosJava:">
+<workingSet IMemento.internal.id="Modulo1_Logica"/>
+<workingSet IMemento.internal.id="Modulo2_ProgramaDeLeitura"/>
+<workingSet IMemento.internal.id="Modulo3_OrientacaoObjetos"/>
+<workingSet IMemento.internal.id="Modulo4_LogicaGames"/>
+<workingSet IMemento.internal.id="Modulo5_GraficosJava"/>
+</workingSet>
+<mruList name="Modulo2_ProgramaDeLeitura"/>
+<mruList name="Modulo1_Logica"/>
+</workingSetManager>

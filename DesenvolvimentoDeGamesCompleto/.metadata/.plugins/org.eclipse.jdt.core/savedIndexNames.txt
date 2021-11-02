@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Users\andre\Documents\EclipseWorkspace\DankiCode\.metadata\.plugins\org.eclipse.jdt.core
+1000599528.index
+3637274678.index
+2222737527.index
+3364498277.index
+1289320443.index
+2053636300.index
+735705145.index
+3803309674.index
+162059047.index

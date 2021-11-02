@@ -1,0 +1,48 @@
+*{
+    margin 0;
+    padding: 0;
+}
+
+html, body{
+    height: 1000%;
+}
+
+input[type=file]{
+    display: none;
+}
+
+label{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 17px;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.div-select{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+
+form select{
+    width: 220px;
+    height: 30px;
+    border: 0;
+    appearance: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked + label{ /* + indica o elemento logo abaixo */
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}

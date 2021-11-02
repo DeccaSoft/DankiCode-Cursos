@@ -1,0 +1,9 @@
+Iniciar Jogo (Abre Janela  e Posiciona o Jogador no Começo)
+Jogador possui 10 de Vida e 10 de Munição
+10 Inimigos Nascem no Mapa
+Inimigos Perseguem o Jogador e tentam Colidir com o Mesmo
+Setas Movem o Jogador
+{
+Colisão do Inimigo com o Jogador faz com que o Jogador perca 1 de vida
+}
+Se o Jogador ficar com Zero de Vida, Game Over
